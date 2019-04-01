@@ -1,0 +1,9 @@
+body { margin: 2rem }
+table span { font-size: .7em }
+th, th:first-child { background: #606c76; color: white; padding: 1rem 1rem; }
+th:not(:first-child) { border-left: .1rem solid #e1e1e1; }
+td { padding: 1rem 0; border-left: .1rem solid #e1e1e1; }
+td:last-of-type{ border-right: .1rem solid #e1e1e1; }
+td:first-child { padding-left: 1rem; }
+td:not(:first-child), th:not(:first-child){ text-align: center }
+td:not(:first-child){ font-size: 1.4rem }
